@@ -1,9 +1,9 @@
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*]
-by [Michael Hartl].
+*Ruby on Rails Tutorial:
+Learn Web Development with Rails*
+by Michael Hartl.
 
 ## Getting started
 
