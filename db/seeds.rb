@@ -6,6 +6,14 @@ User.create!(name:  "Example User",
              activated: true,
              activated_at: Time.zone.now)
 
+User.create!(name:  "Michael Laniak",
+             email: "michael@example.com",
+             password:              "password",
+             password_confirmation: "password",
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
+
 99.times do |n|
   name  = Faker::Name.name
   email = "example-#{n+1}@railstutorial.org"
@@ -17,6 +25,7 @@ User.create!(name:  "Example User",
                activated: true,
                activated_at: Time.zone.now)
 end
+
 users = User.order(:created_at).take(6)
 50.times do
   content = Faker::Hipster.sentences(1).join
